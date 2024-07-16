@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "Quotomatic",
+    "slug": "quotomatic",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.harshit240205.quotomatic"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.harshit240205.quotomatic"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1aac86de-c07c-40d7-a823-a78b1ed296f4"
+      }
+    },
+    "owner": "harshit240205",
+    "updates": {
+      "url": "https://u.expo.dev/1aac86de-c07c-40d7-a823-a78b1ed296f4"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
